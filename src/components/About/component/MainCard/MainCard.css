@@ -25,7 +25,8 @@
 }
 
 .mainTitle,
-.mainSubTitle {
+.mainSubTitle 
+.mainBottomTitle{
   width: 45%;
   height: 400px;
 }
