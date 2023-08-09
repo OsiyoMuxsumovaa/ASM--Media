@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.maincard-container {
+  margin-top: 70px;
+  width: 100%;
+  height: 900px;
+  background: url("../../../../Assets/Images/center-image.png"),
+    lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 2rem;
+}
+
+.mainTitle,
+.mainSubTitle {
+  width: 45%;
+  height: 400px;
+}
+.mainBottomTitle{
+ width: 100%;
+  height: 400px; 
+  background-color: black;
+}
+.mainTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainBottomTitle > ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 45px;
+  }
+  
+  .mainBottomTitle ul > li {
+    color: #fff;
+    font-family: "Abhaya Libre", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-shadow: 2px 0 #000;
+  }
+
+
+.mainTitle > h1 {
+  color: #fff;
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+  text-shadow: 2px 0 #000;
+}
+
+.mainSubTitle > ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 15px;
+}
+
+.mainSubTitle ul > li {
+  color: #fff;
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-shadow: 2px 0 #000;
+}
